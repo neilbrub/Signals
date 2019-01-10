@@ -119,7 +119,7 @@ sound(yHigh,sr);
 
 % move the poles so the resulting system function would have a higher gain
 % at lower frequencies
-aLow = myMovePoles_Group30(a,-0.2);
+aLow = myMovePoles(a,-0.2);
 % synthesis the speech with the new system and the original x[n], resulting in a speech with
 % lower tone, but at the same speed as the original signal
 yLow = synthVoice(aLow,g,1,x,1);

@@ -1,4 +1,4 @@
-function [ aOut ] = myMovePoles_Group30(aIn,ratio)
+function [ aOut ] = myMovePoles(aIn,ratio)
 % input argument:
 % aIn: the coefficients of the original models
 % ratio: the amount of movement
